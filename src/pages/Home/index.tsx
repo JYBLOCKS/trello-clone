@@ -1,0 +1,73 @@
+import { withBars } from "../../middlewares";
+
+function Home() {
+  document.title = "Home";
+  return (
+    <>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+      <h1>Holaaaaaa</h1>
+    </>
+  );
+}
+export default withBars(Home);
