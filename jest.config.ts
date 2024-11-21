@@ -2,8 +2,8 @@ export default {
   testEnvironment: "jsdom",
   preset: "ts-jest",
   transform: {
-    "^.+\\.tsx?$": "ts-jest",
-    "^.+\\.ts?$": "ts-jest",
+    "\\.[jt]sx?$": "ts-jest",
+    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': "<rootDir>/src/utils/transformer.utils.cjs" 
   },
   moduleNameMapper: {
     "\\.(css|less|sass|scss)$": "identity-obj-proxy",
@@ -19,8 +19,7 @@ export default {
   },
   modulePathIgnorePatterns: ["<rootDir>/dist/", "<rootDir>/node_modules/"],
   coveragePathIgnorePatterns: [
-    "<rootDir>/node_modules",
-    "jestGlobalMocks.ts",
+    ".mocks.ts",
     ".type.ts",
     ".module.ts",
     ".mock.ts",

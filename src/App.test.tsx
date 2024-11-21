@@ -1,9 +1,7 @@
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 import App from "./App";
-describe("App Component Testing", () => {
-  it("should display Hello, world! on App", () => {
+describe("App", () => {
+  it("should render App component", () => {
     render(<App />);
-    const title = screen.queryByRole("heading", { name: "Hello, world!" });
-    expect(title).toBeDefined();
   });
 });
